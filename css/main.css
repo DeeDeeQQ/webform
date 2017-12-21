@@ -299,16 +299,6 @@ textarea {
         -5px 5px #cfcbc5,
         5px 5px #cfcbc5;
 }
-.BOX_BG_SHADOW {
-    background-color:
-    opacity: 0.071;
-    position: absolute;
-    left: 55px;
-    top: 65px;
-    width: 690px;
-    height: 480px;
-    z-index: 116;
-}
 
 .register {
     background-color: rgb(51, 102, 255);
@@ -328,6 +318,7 @@ textarea {
     width: 289px;
     height: 96px;
     margin-top: 40px;
+    margin-left: -5px;
 }
 .log h1{
     margin: auto;
@@ -336,9 +327,9 @@ textarea {
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     line-height: 1.545;
-    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
 }
-.log:before {
+.log::before {
     content:"";
     position:absolute;
     bottom: 0;
@@ -348,5 +339,15 @@ textarea {
     border-color: #fff #fff #fff #2e5ce6;
 }
 
+.log::after{
+    content:"";
+    position:absolute;
+    bottom: -5px;
+    top: -5px;
+    left:0;
+    border-width:5px 5px 5px 0;
+    border-style:  solid;
+    border-color: transparent rgb(51, 102, 255) transparent  transparent;
+}
 
 
