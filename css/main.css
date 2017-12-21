@@ -289,12 +289,15 @@ textarea {
         page-break-after: avoid;
     }
 }
+body{
+    background-color: gray;
+}
 .form-container {
     margin: 10%;
     display: flex;
     background-color: rgb(255, 255, 255);
-    width: 680px;
-    height: 480px;
+    width: 690px;
+    height: 485px;
     box-shadow:
         -5px 5px #cfcbc5,
         5px 5px #cfcbc5;
@@ -302,12 +305,12 @@ textarea {
 
 .register {
     background-color: rgb(51, 102, 255);
-    width: 356px;
-    height: 480px;
+    width: 361px;
+    height: 485px;
 }
 .login {
-    width: 324px;
-    height: 480px;
+    width: 329px;
+    height: 485px;
 }
 .log {
     display: flex;
@@ -350,4 +353,49 @@ textarea {
     border-color: transparent rgb(51, 102, 255) transparent  transparent;
 }
 
+.loginForm {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginForm input{
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(232, 232, 232);
+    background-color: rgb(255, 255, 255);
+    width: 246px;
+    height: 50px;
+}
+.loginForm input::placeholder {
+    padding-left: 18px;
+    font-size: 13px;
+    font-family: "Roboto";
+    color: rgb(152, 152, 152);
+    text-transform: uppercase;
+    line-height: 2.615;
+}
+.loginForm button{
+    margin-top: 20px;
+    background-color: #3366ff;
+    font-size: 14px;
+    font-family: "Roboto";
+    line-height: 2.429;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0 1px 0 1px rgba(48, 97, 242, 0.004);
+    width: 244px;
+    height: 48px;
+    border-color:#3366ff;
+}
+.loginForm p{
+    margin-top: 40px;
+    font-size: 11px;
+    font-family: "Roboto";
+    color: rgb(152, 152, 152);
+    text-transform: uppercase;
+    line-height: 2.182;
+}
 
