@@ -326,7 +326,7 @@ body{
 .log h1{
     margin: auto;
     font-size: 22px;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     line-height: 1.545;
@@ -354,14 +354,14 @@ body{
 }
 
 .loginForm {
-    margin-top: 40px;
+    margin-top: 39px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.loginForm input{
-    margin-top: 20px;
+.loginForm input {
+    margin-bottom: 20px;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(232, 232, 232);
@@ -372,7 +372,7 @@ body{
 .loginForm input::placeholder {
     padding-left: 18px;
     font-size: 13px;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     color: rgb(152, 152, 152);
     text-transform: uppercase;
     line-height: 2.615;
@@ -381,7 +381,7 @@ body{
     margin-top: 20px;
     background-color: #3366ff;
     font-size: 14px;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     line-height: 2.429;
     color: white;
     text-transform: uppercase;
@@ -391,11 +391,76 @@ body{
     border-color:#3366ff;
 }
 .loginForm p{
-    margin-top: 40px;
+    margin-top: 39px;
     font-size: 11px;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     color: rgb(152, 152, 152);
     text-transform: uppercase;
     line-height: 2.182;
 }
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.regForm {
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.regForm input {
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(232, 232, 232);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 0px 1px rgba(48, 97, 242, 0.004);
+    width: 276px;
+    height: 48px;
+}
+
+.regForm input::placeholder {
+    padding-left: 18px;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(152, 152, 152);
+    text-transform: uppercase;
+    line-height: 2.615;
+}
+.regForm button{
+    margin-top: 18px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    line-height: 2.429;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(76, 121, 255);
+    box-shadow: 0px 1px 0px 1px rgba(48, 97, 242, 0.004);
+    width: 276px;
+    height: 48px;
+    border-color:#3366ff;
+}
+.BUTTON {
+    background-color: rgb(76, 121, 255);
+    box-shadow: 0px 1px 0px 1px rgba(48, 97, 242, 0.004);
+    position: absolute;
+    left: 424px;
+    top: 452px;
+    width: 276px;
+    height: 48px;
+    z-index: 121;
+}
+
+.reg h1{
+    margin-left: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 1.318;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 0px;
+
+}
